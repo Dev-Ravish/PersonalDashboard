@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task List 2021</title>
+
+	<link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="calender.css">
+    <link rel="stylesheet" href="balance.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+
+
+</head>
+<body>
+    <nav>
+        <a href="#" class="logo">ravish</a>
+        <a href="#Workspace">Workspace</a>
+        <a href="#Cash">Cash</a>
+        <a href="#Cloud">Cloud</a>
+        <a href="#Credit-card">Credit-card</a>
+        <a href="#Notifications">Notifications</a>
+    </nav>
+
+    <!-- first row -->
+
+    <div class="personal-dashboard">
+
+        <div class="todo ">
+            <header>
+                <form id="new-task-form">
+                    <input 
+                        type="text" 
+                        name="new-task-input" 
+                        id="new-task-input" 
+                        placeholder="What have you planned for?" />
+                    <input 
+                        type="submit"
+                        id="new-task-submit" 
+                        value="Add" />
+                </form>
+            </header>
+            <main>
+                <section class="task-list">
+                    <h2>Tasks - </h2>
+
+                    <div id="tasks">
+
+                        <div class="task">
+                            <div class="content">
+                                <input 
+                                    type="text" 
+                                    class="text" 
+                                    value="To read books for 1 hr"
+                                    readonly>
+                            </div>
+                            <div class="actions">
+                                <button class="edit">Edit</button>
+                                <button class="delete">Delete</button>
+                            </div>
+                        </div>
+                        <div class="task">
+                            <div class="content">
+                                <input 
+                                    type="text" 
+                                    class="text" 
+                                    value="To read books for 1 hr"
+                                    readonly>
+                            </div>
+                            <div class="actions">
+                                <button class="edit">Edit</button>
+                                <button class="delete">Delete</button>
+                            </div>
+                        </div>
+                        <div class="task">
+                            <div class="content">
+                                <input 
+                                    type="text" 
+                                    class="text" 
+                                    value="To read books for 1 hr"
+                                    readonly>
+                            </div>
+                            <div class="actions">
+                                <button class="edit">Edit</button>
+                                <button class="delete">Delete</button>
+                            </div>
+                        </div>
+                        <div class="task">
+                            <div class="content">
+                                <input 
+                                    type="text" 
+                                    class="text" 
+                                    value="To read books for 1 hr"
+                                    readonly>
+                            </div>
+                            <div class="actions">
+                                <button class="edit">Edit</button>
+                                <button class="delete">Delete</button>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </section>
+            </main>
+        </div>
+
+        <div class="container">
+        
+            <div class="bottom">
+                <div class="expense-income-tab">
+                    <span class="expense-tab active">Expenses</span>
+                    <span class="income-tab">Incomes</span>
+                </div>
+                <div class="transaction-row">
+                    <div class="transaction-icon">
+                        <svg width="60" height="60" class="transaction-svg">
+                            <circle r="28" cx="30" cy="30" class="transaction-track"></circle>
+                            <circle r="28" cx="30" cy="30" class="transaction-progress" stroke="#23b3ee" stroke-dashoffset="100"></circle>
+                        </svg>
+                    </div>
+                    <div class="transaction-name-col">
+                        <span class="transaction-name">Shops</span>
+                        <span class="transaction-desc">49.5% of budget</span>
+                    </div>
+                    <div class="transaction-amount-col">
+                        <span class="transaction-amount">Rs.2,800.00</span>
+                        <span class="transaction-amount-desc">12 transactions</span>
+                    </div>
+                </div>
+                <div class="transaction-row">
+                    <div class="transaction-icon">
+                        <svg width="60" height="60" class="transaction-svg">
+                            <circle r="28" cx="30" cy="30" class="transaction-track"></circle>
+                            <circle r="28" cx="30" cy="30" class="transaction-progress" stroke="#eb2bbe" stroke-dashoffset="130"></circle>
+                        </svg>
+                    </div>
+                    <div class="transaction-name-col">
+                        <span class="transaction-name">Health</span>
+                        <span class="transaction-desc">33.6% of budget</span>
+                    </div>
+                    <div class="transaction-amount-col">
+                        <span class="transaction-amount">Rs.1,900.00</span>
+                        <span class="transaction-amount-desc">20 transactions</span>
+                    </div>
+                </div>
+                <div class="transaction-row">
+                    <div class="transaction-icon">
+                        <svg width="60" height="60" class="transaction-svg">
+                            <circle r="28" cx="30" cy="30" class="transaction-track"></circle>
+                            <circle r="28" cx="30" cy="30" class="transaction-progress" stroke="#f4af45" stroke-dashoffset="150"></circle>
+                        </svg>
+                        <i class="fas fa-coffee icon"></i>
+                    </div>
+                    <div class="transaction-name-col">
+                        <span class="transaction-name">Coffee</span>
+                        <span class="transaction-desc">16.9% of budget</span>
+                    </div>
+                    <div class="transaction-amount-col">
+                        <span class="transaction-amount">Rs.950.00</span>
+                        <span class="transaction-amount-desc">24 transactions</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="calender">
+            <div class="month">
+                <strong>May</strong>
+                <strong>2022</strong>
+            </div>
+            <table>
+                <tr>
+                    <th>Sun</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                </tr>
+                <tr>
+                    <td>29</td>
+                    <td>30</td>
+                    <td>31</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    
+                </tr>
+            </table>
+
+            <div class="calender-text">
+                <div> Work HArd and forget about failures.</div>
+                <div> Just move on and Succeed.</div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- second row -->
+
+    <div>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap');
+
+
+.container {
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    background: #374151;
+    height: fit-content;
+    width: fit-content;
+    margin-top: 64px;
+}
+
+
+div.bottom {
+    background: #374151;
+    padding: 20px 30px;
+    border-radius: 30px;
+}
+
+div.expense-income-tab {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+span.expense-tab {
+    color: #9ca3c2;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+span.income-tab {
+    color: #9ca3c2;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: auto;
+}
+
+i.fa-filter {
+    color: #fdfdff;
+}
+
+circle.transaction-track {
+    stroke: #e3e7e8;
+    stroke-width: 2;
+    fill: none;
+}
+
+circle.transaction-progress {
+    stroke-width: 3;
+    stroke-dasharray: 175;
+    fill: none;
+    stroke-linecap: round;
+    transform-origin: center;
+    transform: rotate(-90deg);
+}
+
+div.transaction-row {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+div.transaction-icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+svg.transaction-svg {
+    position: absolute;
+    margin-top: 10px;
+}
+
+i.icon {
+    position: absolute;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+div.transaction-name-col {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: 15px;
+}
+
+span.transaction-name,
+span.transaction-amount {
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 3px;
+    color: #EEE;
+}
+
+span.transaction-desc,
+span.transaction-amount-desc {
+    font-weight: 600;
+    font-size: 10px;
+    color: #9ca3c2;
+}
+
+div.transaction-amount-col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 15px;
+}
+
+span.active {
+    color: #EEE;
+    border-bottom: 3px solid crimson;
+}

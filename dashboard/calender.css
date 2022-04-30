@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+
+.calender{
+    margin: 16px 16px 0 0;
+    max-width: 400px;
+    font-family: serif;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+.month{
+    text-align: center;
+    background: #6B7280;
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: black;
+
+}
+
+table{
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+table, th, td{
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    font-size: 4 px;
+    font-family: Elaphant;
+}
+tr, th, td{
+    padding: 16px 4px;
+}
+th{
+    background: #374151;
+    color: white;
+    font-family: arial black;
+}
+td{
+    background: #374151;
+    color: #d1cdcd;
+}
+td:hover{
+    background: crimson;
+}
+
+.calender-text>div
+{
+    font-family: 'Tapestry', cursive !important;
+    color: #6B7280;
+    font-weight: 400;
+    font-size: xx-large;
+    padding: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
